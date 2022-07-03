@@ -1,0 +1,35 @@
+<!DOCTYPE html>    
+<html>    
+<head>    
+    <title>Login Form</title>    
+    <link rel="stylesheet" type="text/css" href="../CSS/login.css">    
+</head>    
+<body>    
+    <h2>Login Page</h2><br>    
+    <div class="login">    
+    <form id="login_form" method="get" action="/HTML/Gallery.html">    
+        <label><b>User Name     
+        </b>    
+        </label>    
+        <input type="text" class="filed"  name="L-Uname" id="uname" placeholder="Username">    
+        <br><br>    
+        <label><b>Password     
+        </b>    
+        </label>    
+        <input type="Password" class="filed" name="Pass" id="pass" placeholder="Password"> 
+        <span id="Login_Errormsg"></span>   
+        <br><br>    
+        <input type="button" onclick="login()" name="log" id="log" value="Log In Here"> 
+        <br><br>
+        <input type="button" onclick="window.location='../HTML/Registration.html'" name="log" id="signup" value="Do Not Have Account?">   
+        <br><br>    
+        <input type="checkbox" id="check">    
+        <span>Remember me</span>    
+        <br><br>    
+        <a href="#">Forgot Password</a>    
+    </form>     
+</div>  
+<script src="../JavaScript/Login.js" type="module"></script>
+
+</body>    
+</html> 

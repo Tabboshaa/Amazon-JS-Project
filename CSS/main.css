@@ -1,0 +1,390 @@
+.header
+{
+width:1600px;
+height: 12%;
+margin-left: -9px;
+margin-top: -7px;
+background-color: #232f3e;
+}
+.logo{
+    display: inline-block;
+    width: 100px;
+    height:50px;
+    margin-left: 10px;
+    
+}
+.logo > img{
+    width: 100px;
+    height: 70px;
+}
+.header-link{
+    width: fit-content;
+    height: fit-content;
+    display:inline-block;
+    vertical-align: top;
+}
+.header-link>a
+{
+    color: white;
+    margin-top: 40px;
+    margin-right: 20px;
+    display: inline-block;
+    font-weight: bold;
+    font-family: sans-serif;
+    text-decoration: none;
+}
+.header-link>a:hover{
+    border: solid white 1px;
+}
+input[type="search"]
+{
+    /* vertical-align: top; */
+    width: 300px;
+    height: 30px;
+    background-image: url("../IMAGES/search-icon.png") ;
+}
+.hombg
+{
+    width:1600px;
+    margin-bottom:-350px;
+    margin-left: -9px;
+}
+.item-card
+{
+ width: 400px;
+ height: 475px;
+ border: white solid 5px;
+ background-color:  ffffff;
+ display: inline-block;
+ margin-right: 50px;
+ margin-left: 50px;
+ margin-bottom: 10px;
+ text-align: center;
+}
+
+.item
+{
+    width: 340;
+    height: 340;
+    margin: 5px;  
+}
+.item-card-title
+{
+    font-weight: bold;
+    font-size: x-large;
+    font-family:sans-serif;
+}
+.item-card-details
+{
+    font-size: large;
+}
+.item--card-container
+{
+ width: 1400px;
+ height: 280px;
+ margin: 50px;
+ margin-top: 20px;
+ border: white solid 5px;
+ background-color:  ffffff;
+ padding-left: 20px;
+}
+
+.S-item-img
+{
+    width: 170px;
+    height: 200px;
+    margin-left:50px;
+}
+.S-item-img:hover
+{
+border: gray solid 0.5px;
+}
+.bage-bottom
+{
+    width: 1600px;
+    height: 300px;
+    background-color: #232f3e;
+
+}
+.bage-footer{
+    background-color:#131a22;
+    width: 1600px;
+    height: 200px;
+    margin-top: 0px;
+}
+.bage-footer>span{
+    font-size: xx-large;
+    color: white;
+    font-family: sans-serif;
+    margin-left: 500px;
+}
+.bage-end{
+    background-color: #37475a;
+    width: 1600px;
+    height: 30px;
+    text-align: center;
+    color: white;
+    padding-top: 20px;
+    margin-top: 100px;
+}
+.bage-end:hover{
+    background-color: #485769;
+}
+.Details-img{
+    width: 500px;
+    height: 600px;
+}
+
+.Details-img:hover{
+    border: solid tan 1px;
+}
+.icon{
+    width: 50px;
+    height: 50px;
+}
+.icon:hover{
+    width: 55px;
+    height: 55px;
+}
+.inline{
+    display: inline-block;
+    width: 650px;
+    height: 750px ;
+    vertical-align: top;
+    margin-left: 30px;
+    /* border: black solid 2px; */
+}
+.to-card:hover{
+    width: 275px;
+    height: 55px;
+    border: solid tan 1px;
+}
+.ad{
+    width: 150px;
+    height: 950px ;
+    vertical-align: top;
+    /* border: black solid 2px; */
+    display: inline-block;
+    margin-right: -50px;
+}
+/* body{
+    overflow-x:hidden;
+} */
+
+.next2{
+    width: 60px;
+    height: 60px;
+    }
+.next2:hover{
+
+border: solid gray  ;
+}
+
+.left-div{
+    width: fit-content;
+    height: fit-content;
+    display: inline-block;
+    vertical-align: top;
+
+    
+}
+.right-div{
+    width: fit-content+10px;
+    height: fit-content;
+    margin-top: 80px;
+    margin-left: 20px;
+    display: inline-block;
+    vertical-align: top;
+    background-color: white;
+    border-radius: 10px;
+    padding-left: 50px;
+    padding-bottom: 20px;
+    padding-right: 50px;
+
+}
+
+.cart-info{
+    
+    width:200px;
+    height: 100px;
+    margin: 20px;
+    /* border: black solid 1px; */
+    display: inline-block;
+    vertical-align: top;
+}
+
+.product-Details
+{ 
+
+}
+.product-Details>img{
+
+    width: 100px;
+    height: 100px;
+    margin: 15px;
+}
+.product-Details>div
+{
+    display: inline-block; 
+    vertical-align: top;
+    font-size: small;
+    color: #c1c1c1;
+    font-weight: bold;
+}
+.product-Details>div>p
+{
+    margin-left:-150px;margin-bottom: -10px;
+}
+.product-Details>div>a{
+    vertical-align: top;
+    font-size:large;
+    font-weight: bold;
+    color: black;
+}
+.product-price{
+
+    font-size: 25px;
+    color: brown;
+}
+.quntity{
+
+    width: 50px; 
+    height: 50px;
+    border-radius: 10px;
+    font-size: x-large;
+    text-align: center;
+    color: brown;
+    margin-left: 200px;
+
+}
+.table-head
+{
+    font-size: x-large;
+    color: darkblue;
+    /* background-color: blanchedalmond; */
+}
+.check-out{
+    display: block; 
+    margin-left: 20px;
+    margin-top: 25px; 
+    width: 300px; 
+    height: 50px;
+    background-color: #008e45;
+    color: white;
+    font-size: x-large;
+    font-weight: bolder;
+    
+}
+a:hover{
+border: white solid 1px;
+}
+footer{
+    font-size: large;
+    color: white;
+    text-align: center;
+}
+.AU-img{
+    height: 150px;
+    width: 150px;
+}
+.about-us{
+    width: fit-content;
+    height: 300px;
+    border-radius:10px ;
+    margin-left: 150px;
+    margin-top: 30px;
+    color: ffffff;
+    font-size: 20px;
+    
+    /* box-shadow: 20px 20px black; */
+}
+.about-us>p{
+    font-size: 25px;
+    line-height:35px;
+    word-spacing: 3px;
+}
+.about-box{
+    border: 1px solid black;
+    width: 400px;
+    height: 400px;
+    background-color: #232f3e;
+    display: inline-block;
+    margin-left: 20px;
+    vertical-align: top;
+    font-size: 25px;
+}
+.about-box>a>h4{
+    margin-left: 20px;
+    color: #ff9914;
+
+}
+.about-box>p{
+    color: white;
+    margin-left: 20px;
+    line-height: 35px;
+}
+.about-main-box{
+    width: fit-content;
+    height: fit-content;
+    /* margin-left: 60px;
+    margin-top: 60px; */
+
+    margin: 80px;
+}   
+.con-us{
+    width: 750px;
+    height: 350px;
+    background-color: white;
+    margin-left: 150px;
+    margin-top: 100px;
+    display: inline-block;
+    vertical-align: top;
+    font-size: x-large;
+}
+.con-us>h1{
+    margin-left: 30px;
+}
+.input-form>a{
+    display:inline-block;
+    width: 200px;
+    height: 30px;
+    background-color:#f46262;
+    color: white;
+    border-radius:5px ;
+    text-decoration: none;  
+    margin-left: 300px; 
+    text-align: center; 
+}
+.input-form{
+    padding-right: 20px;
+    display: inline-block;
+    vertical-align: top;
+}
+.input-form>input{
+
+    width: 250px;
+    height: 30px;
+}
+textarea{
+    width: 330px;
+    height: 150px;
+}
+.inside-CU{
+    width: 40%;
+    height: 50%;
+    display:inline-block;
+    /* border: black solid 1px ; */
+    margin-left: 30px;
+    vertical-align: top;
+}.inside-CU-2{
+    width: 40%;
+    height: 50%;
+    display:inline-block;
+    /* border: black solid 1px ; */
+    margin-left: 30px;
+    vertical-align: top;
+    margin-top: -50px;
+    text-align: center;
+}
+
+

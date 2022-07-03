@@ -1,0 +1,99 @@
+
+<html>
+    <head>
+        <title>
+Gallery
+        </title>
+        <link rel="stylesheet" type="text/css" href="../CSS/main.css"/>
+        <script>
+            var c=5;
+            function next(){
+                if(c==10) c=5;
+                document.getElementById("homebg").src = "../IMAGES/homebg"+c+".jpg";
+                c++;
+            }
+
+
+        </script>
+        <script src="../JavaScript/GalleryModule.js" type="module"></script>
+    </head>
+    <body bgcolor="eaeded" >
+        <a name="top"></a>
+        <div class="header">
+            
+            <div class="logo">
+                 <img src="../IMAGES/logo.png">
+            </div>
+            <div class="header-link">
+                <a href="../HTML/Home.html" style="margin-left:50px;" >Home</a>
+                <a href="" >ContactUs</a>
+                <a href="">AboutUS</a>
+                <a href="" > Today's Deals</a>
+                <a href="" > Sell</a>
+                <a href="" >Fashion</a>
+                <a href="" >Grocery</a>
+                 <a href="" >Perfumes</a>
+                <a href="" >Electronics</a>
+                <a href="" >Mobile Phones</a>
+                
+                <input type="search" placeholder="Search here">
+                <a id="login" href="../HTML/Login.html">Login</a>
+                <!-- <img src="../IMAGES/search-icon.png" width="50px" height="50px" style=";"> -->
+             </div>  
+             
+        </div>
+        <div>
+                <img  id="homebg"class="hombg" src="../IMAGES/homebg5.jpg"/>
+           
+           <a  href="javascript:void(0)" onclick="next()"><img class="next2" src="../IMAGES/next2.png"></a> 
+
+        </div>
+
+        <table id="Gtable">
+
+            <tr>
+                <td>
+                    <div class="item-card">
+                        <p class="item-card-title">Item card title</p>
+                        <img class="item" src="../IMAGES/w0.png"/>
+                        <br>
+                        <a class="item-card-details" href="../HTML/Details.html">More Details</a>
+                    </div>
+                </td>
+                <td>
+                    <div class="item-card">
+                        <p class="item-card-title">Item card title</p>
+                        <img class="item" src="../IMAGES/item2.jpg"/>
+                        <p class="item-card-details"> More Details</p>
+                    </div>
+                </td>
+                <td>
+                    <div class="item-card">
+                        <p class="item-card-title">Item card title</p>
+                        <img class="item" src="../IMAGES/item3.jpg"/>
+                        <p class="item-card-details"> More Details</p>
+                    </div>
+                </td>
+            </tr>
+           
+            </table>
+
+            
+            <div class="bage-end">
+                <a  class="bage-end" href="#top">Back To Top</a>
+            </div>
+            <!-- <div class="bage-bottom">
+                
+            </div> -->
+            <div class="bage-footer">
+                <span>For more Information About  <a href="" style="color: aliceblue;">AswaQAziz</a></span> 
+
+                <footer>
+                    <p>Author: Hege Refsnes</p>
+                    <p><a href="mailto:hege@example.com">hege@example.com</a></p>
+                </footer>
+            </div>
+
+        </body>
+
+</html>

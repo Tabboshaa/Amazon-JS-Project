@@ -1,0 +1,50 @@
+<!DOCTYPE html>    
+<html>    
+<head>    
+    <title>Registration Form</title>    
+    <link rel="stylesheet" type="text/css" href="../CSS/login.css">   
+    <script src="../JavaScript/Registration.js" type="module"></script> 
+</head>    
+<body>    
+    <h2>Registeration</h2>  
+    <div class="login">    
+        <form id="Registeration" method="get" action="/HTML/Login.html">    
+            <label><b>User Name     
+            </b>    
+            </label>    
+            <input type="text" onblur="Valdusername(this)" class="filed"  name="R_Uname" id="R_Uname" placeholder="Username"> 
+        
+            <span id="Uname_Errormsg"></span>   
+            <br><br> 
+            <label><b>Phone Number     
+            </b>    
+            </label>    
+            <input type="text" onblur="ValdPhone(this)" class="filed"  name="R_Phone" id="R_Phone" placeholder="Phone Number"> 
+            <span id="Phone_Errormsg"></span>
+            <br><br>
+            <label><b>User Email      
+            </b>    
+            </label>    
+            <input type="text" onblur="ValdEmail(this)" class="filed"  name="R_Email" id="R_Email" placeholder="Email"> 
+            <span id="email_Errormsg"></span>   
+            <br><br> 
+
+            <label><b>Password     
+            </b>    
+            </label>    
+            <input type="Password" id="R_Pass" onblur="ValdPassword(this)" class="filed" name="R_Pass" placeholder="Confirm Password">    
+            <span id="password_Errormsg"></span>
+            <br><br>    
+
+            <label><b>Confirm Password     
+            </b>    
+            </label>    
+            <input type="Password" class="filed" name="Re_Pass" id="Re_Pass" placeholder="Confirm Password">    
+            <span id="Repassword_Errormsg"></span>
+            <br><br> 
+            <input type="button" name="Register" id="Register" value="Create New Account" onclick="registration()">       
+ 
+        </form>  
+</div>    
+</body>    
+</html> 
